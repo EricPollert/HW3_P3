@@ -23,7 +23,7 @@ int main() {
   cout << "What is value of t?" << endl;
   cin >> t;
   
-  i = (E/R)*pow(e, (t/(R*C)));
+  i = (E/R)*pow(e, (-t/(R*C)));
   cout << "The value of i = " << i << endl;
 
 
